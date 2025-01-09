@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hullo/pages/event_screen.dart';
-import 'package:hullo/pages/wedding_page.dart';
+import 'package:hullo/pages/pages.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: WeddingEventForm(),
+      home:EventScreen(),
     );
   }
 }
